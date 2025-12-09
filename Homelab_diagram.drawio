@@ -1,0 +1,186 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="2">
+  <diagram name="Main" id="7uzhLVInK9knvHBxXHvh">
+    <mxGraphModel dx="1211" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-9" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="640" width="440" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-4" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="-GqJNIrFo-xgcTiRUZgk-9" vertex="1">
+          <mxGeometry width="430" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-8" value="500 Debian LXC" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="-GqJNIrFo-xgcTiRUZgk-9" vertex="1">
+          <mxGeometry x="20" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-10" value="&lt;ul&gt;&lt;li&gt;Samba&lt;/li&gt;&lt;li&gt;NFS&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="-GqJNIrFo-xgcTiRUZgk-9" vertex="1">
+          <mxGeometry x="340" y="20" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-14" value="" style="group" parent="-GqJNIrFo-xgcTiRUZgk-9" connectable="0" vertex="1">
+          <mxGeometry x="30" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-15" value="Samba Package" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="-GqJNIrFo-xgcTiRUZgk-14" vertex="1">
+          <mxGeometry width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-16" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Samba SMB daemon&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Samba AD daemon&lt;/li&gt;&lt;li&gt;Samba NMB daemon&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="-GqJNIrFo-xgcTiRUZgk-14" vertex="1">
+          <mxGeometry x="25" width="175" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LQvatFtNy4naFYrW0tV0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="LQvatFtNy4naFYrW0tV0-13" target="LQvatFtNy4naFYrW0tV0-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LQvatFtNy4naFYrW0tV0-13" value="NVMe&lt;div&gt;SSD 1TB&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="550" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LQvatFtNy4naFYrW0tV0-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="520" as="sourcePoint" />
+            <mxPoint x="1120" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQvatFtNy4naFYrW0tV0-21" value="Physical&lt;div&gt;Hardware&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LQvatFtNy4naFYrW0tV0-4" value="PROXMOX OS Hypervisor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="360" width="1120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LQvatFtNy4naFYrW0tV0-27" value="Sample LXC" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LQvatFtNy4naFYrW0tV0-32" value="Sample Docker Container" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="-450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LQvatFtNy4naFYrW0tV0-35" value="Sample Virtual Machine" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-500" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LQvatFtNy4naFYrW0tV0-36" value="100 Debian VM" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="210" y="80" width="290" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-2" value="Docker" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="LQvatFtNy4naFYrW0tV0-36" vertex="1">
+          <mxGeometry x="10" y="30" width="200" height="200" as="geometry">
+            <mxRectangle x="10" y="30" width="40" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-13" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="710" y="-510" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-7" value="LXC Package" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="-GqJNIrFo-xgcTiRUZgk-13" vertex="1">
+          <mxGeometry width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-11" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sample.service&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sample2.service&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sample3.service&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="-GqJNIrFo-xgcTiRUZgk-13" vertex="1">
+          <mxGeometry x="25" width="175" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.648;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-GqJNIrFo-xgcTiRUZgk-4" target="LQvatFtNy4naFYrW0tV0-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-GqJNIrFo-xgcTiRUZgk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.201;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LQvatFtNy4naFYrW0tV0-36" target="LQvatFtNy4naFYrW0tV0-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mu1Bea9CXaMDoBvAj7-6" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="-500" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mu1Bea9CXaMDoBvAj7-7" value="zpoolname&lt;div&gt;(ZPOOL)&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mu1Bea9CXaMDoBvAj7-8" value="Physical&lt;br&gt;Drive" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-490" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mu1Bea9CXaMDoBvAj7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g2Mu1Bea9CXaMDoBvAj7-9" target="LQvatFtNy4naFYrW0tV0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mu1Bea9CXaMDoBvAj7-9" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="670" y="550" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mu1Bea9CXaMDoBvAj7-10" value="satapool (ZPOOL)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mu1Bea9CXaMDoBvAj7-11" value="SATA&amp;nbsp;&lt;div&gt;SSD&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1TB&lt;/span&gt;&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="560" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OXBm7CgR08NwpTguG-j--1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="-500" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OXBm7CgR08NwpTguG-j--2" value="&lt;div&gt;dataset&lt;/div&gt;&lt;div&gt;xxxGB&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-480" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OXBm7CgR08NwpTguG-j--3" value="zpoolname&lt;div&gt;(ZPOOL)&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-490" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="L5qg6q45BpNZ1SjzxYOt" name="500 File Server">
+    <mxGraphModel dx="1077" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-1" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="140" y="140" width="440" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-2" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="95cG-xqRZBugQZ9nHOwn-1" vertex="1">
+          <mxGeometry width="430" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-3" value="500 Debian LXC" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="95cG-xqRZBugQZ9nHOwn-1" vertex="1">
+          <mxGeometry x="20" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-4" value="&lt;ul&gt;&lt;li&gt;Samba&lt;/li&gt;&lt;li&gt;NFS&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="95cG-xqRZBugQZ9nHOwn-1" vertex="1">
+          <mxGeometry x="340" y="20" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-5" value="" style="group" parent="95cG-xqRZBugQZ9nHOwn-1" connectable="0" vertex="1">
+          <mxGeometry x="30" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-6" value="Samba Package" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="95cG-xqRZBugQZ9nHOwn-5" vertex="1">
+          <mxGeometry width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-7" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Samba SMB daemon&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Samba AD daemon&lt;/li&gt;&lt;li&gt;Samba NMB daemon&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="95cG-xqRZBugQZ9nHOwn-5" vertex="1">
+          <mxGeometry x="25" width="175" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-MdD6Us5VXbYnPBxGKmd-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="650" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4B12OOYj7849z-KETg7F-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#787878;" edge="1" parent="1" source="95cG-xqRZBugQZ9nHOwn-7" target="CLhQfWFBjUjo-0t5BsnO-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szFMd5DTtvdN0jZAJ0DC-8" value="500: File Server" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="szFMd5DTtvdN0jZAJ0DC-10" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: medium; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Initially planned on TrueNAS in a VM with PCIe passthrough to SATA SSD&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: medium; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Concluded inefficient and bug-prone and found alternative&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: medium; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Created zpool with SATA SSD: satapool&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: medium; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Created dataset in zpool with 500gb allocation: satapool/nfs_share&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
+          <mxGeometry width="810" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="95cG-xqRZBugQZ9nHOwn-9" target="95cG-xqRZBugQZ9nHOwn-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-9" value="NVMe&lt;div&gt;SSD 1TB&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="650" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="600" as="sourcePoint" />
+            <mxPoint x="690" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-13" value="Physical&lt;div&gt;Hardware&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="95cG-xqRZBugQZ9nHOwn-14" value="PROXMOX OS Hypervisor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="510" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B12OOYj7849z-KETg7F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-MdD6Us5VXbYnPBxGKmd-1" target="95cG-xqRZBugQZ9nHOwn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MdD6Us5VXbYnPBxGKmd-2" value="satapool (ZPOOL)&lt;div&gt;1TB&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CLhQfWFBjUjo-0t5BsnO-1" value="nfs_share&lt;div&gt;500GB&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="670" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4B12OOYj7849z-KETg7F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="95cG-xqRZBugQZ9nHOwn-2" target="95cG-xqRZBugQZ9nHOwn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
